@@ -1,0 +1,33 @@
+{
+    "resourceType":"Patient",
+    "name": [
+        {
+            "use": "official",
+            "given": ["Herman"],
+            "family": "Muhereza"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1996-06-27",
+    "telecom": [
+        {
+            "value": "0777041946",
+            "use": "mobile",
+            "system": "phone"
+        },
+        {
+            "system": "email",
+            "value": "hermanmuhereza22@gmail.com"
+        }
+    ],
+    "address": [
+        {
+          "district": "Wakiso District",
+          "city": "KampalaCity",
+          "country": "Uganda"
+        }
+      ],
+      "maritalStatus": {
+          "text": "single"
+      }
+}

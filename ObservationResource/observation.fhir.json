@@ -1,0 +1,23 @@
+{
+    "resourceType":"Observation",
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "15874-8",
+                "display": "Glucose [Moles/volume] in Blood"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/3053315",
+        "display": "Muhereza Herman"
+    },
+    "valueQuantity": {
+        "value": 6.3,
+        "unit": "mmol/1",
+        "system": "http://unitsofmeasure.org",
+        "code": "mmol/L"
+    }
+}

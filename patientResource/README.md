@@ -1,6 +1,6 @@
 
 # Test the Patient.fhir.json resource
-When i make a POST request to the Hapi Fhir server with the patient.fhir.json(https://github.com/mherman22/CreateFhirResources/blob/main/patientResource/patient.fhir.json) using http://hapi.fhir.org/baseR4/Patient in PostMan, i get the result shown below.
+- When i make a POST request to the Hapi Fhir server with the patient.fhir.json(https://github.com/mherman22/CreateFhirResources/blob/main/patientResource/patient.fhir.json) using http://hapi.fhir.org/baseR4/Patient in PostMan, i get the result shown below.
 
 ```{
     "resourceType": "Patient",
@@ -45,5 +45,6 @@ When i make a POST request to the Hapi Fhir server with the patient.fhir.json(ht
     "maritalStatus": {
         "text": "single"
     }
-}```
-
+}
+```
+- In order to make a GET request of the same patient resource, all i need to do is add http://hapi.fhir.org/baseR4/Patient/{id}, i.e http://hapi.fhir.org/baseR4/Patient/3053315

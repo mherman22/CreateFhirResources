@@ -34,7 +34,7 @@ The whole idea behind this documentation is to be able to explore the various re
 ```
 
 
-# Test the Observation.fhir.json  resource
+## Test the Observation.fhir.json  resource
 - When i make a POST request to the Hapi Fhir server with the [Observation.fhir.json](https://github.com/mherman22/CreateFhirResources/blob/main/ObservationResource/observation.fhir.json) using [fhir observation resource](http://hapi.fhir.org/baseR4/Observation) in PostMan, i get the result shown below.
 
 ```
@@ -70,7 +70,7 @@ The whole idea behind this documentation is to be able to explore the various re
 - In order to make a GET request of the same patient resource, all i need to do is add (http://hapi.fhir.org/baseR4/Observation/{id}), i.e (http://hapi.fhir.org/baseR4/Observation/3053315)
 
 
-# Test the Patient.fhir.json resource
+## Test the Patient.fhir.json resource
 - When i make a POST request to the Hapi Fhir server with the [patient.fhir.json](https://github.com/mherman22/CreateFhirResources/blob/main/patientResource/patient.fhir.json) using [fhir patient resource](http://hapi.fhir.org/baseR4/Patient) in PostMan, i get the result shown below.
 
 ```{

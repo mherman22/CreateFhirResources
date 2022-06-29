@@ -1,4 +1,13 @@
-# Create Fhir Resources
+## FHIR STANDARD
+### What is fhir?
+FHIR is an abbreviation for `Fast Healthcare Interoperability Resources` and can be defined as a standard describing resources and an API for exchanging electronic health records. The standard was created by the [Health Level Seven International](https://www.hl7.org/) (HL7) health-care standards organization.
+
+FHIR builds on previous data format standards from HL7, like HL7 version 2.x and HL7 version 3.x. But it is easier to implement because it uses a modern web-based suite of API technology, including a HTTP-based RESTful protocol, and a choice of JSON, XML or RDF for data representation.[1] One of its goals is to facilitate interoperability between legacy health care systems, to make it easy to provide health care information to health care providers and individuals on a wide variety of devices from computers to tablets to cell phones, and to allow third-party application developers to provide medical applications which can be easily integrated into existing systems.
+
+FHIR provides an alternative to document-centric approaches by directly exposing discrete data elements as services. For example, basic elements of healthcare like patients, admissions, diagnostic reports and medications can each be retrieved and manipulated via their own resource URLs.
+
+`The philosophy behind FHIR is to build a base set of resources that, either by themselves or when combined, satisfy the majority of common use cases. FHIR resources aim to define the information contents and structure for the core information set that is shared by most implementations` HL7 states on its website.
+## Create Fhir Resources
 The whole idea behind this documentation is to be able to explore the various resources enabled by fhir standard. I used the following the following tools to play around with fhir;-
  1. vscode
  2. postman: to make rest calls to the fhir server.
